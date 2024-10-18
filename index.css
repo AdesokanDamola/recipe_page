@@ -1,0 +1,78 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #F3E5D8;
+    font-size: smaller;
+    font-family: Arial;
+}
+
+.main{
+    background-color: white;
+    height: 50%;
+    width: 35%;
+    display: flex;
+    gap: 15px;
+    line-height: 20px;
+    flex-direction: column;
+    position: relative;
+    left: 30%;
+    top: 10%;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+img{
+    border-radius: 10px;
+    height: 200px;
+}
+
+.prep{
+    background-color: #FFF7FC;
+}
+
+.prep #prep {
+    font-weight: bold;
+}
+
+.prep h3{
+    color: #6D3550;
+    padding: 0 15px;
+}
+
+p, li {
+    font-size: 12px;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+.nut #nutp{
+    padding-left: 20px;
+}
+
+.nutri{
+    display: flex;
+    justify-content: space-between; 
+    padding: 0 30px;
+}
+
+.nutri.bottom, .ing, .inst{
+    border-bottom: solid 1px rgb(198, 196, 196);
+}
+
+.value{ 
+    margin-right: 150px;
+    color:hsl(14, 45%, 36%) ;
+    font-weight: bold;
+    text-align: left;  
+}
+
+li::marker{
+    color:hsl(14, 45%, 36%) ; 
+    font-weight: bold;
+}
+
+.prep li::marker{
+    color: #6D3550;
+}
